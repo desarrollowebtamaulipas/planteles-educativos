@@ -1,4 +1,4 @@
-= 1.0.1
+= 1.0.2 =
 Fecha de lanzamiento: 22 de Noviembre de 2024
 
 * [Fix] Agregó link al botón de ir a Sala de Prensa del Sidebar
