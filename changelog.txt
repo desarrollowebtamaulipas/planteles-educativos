@@ -1,3 +1,8 @@
+= 1.0.2.1 =
+Fecha de lanzamiento: 15 de Enero de 2025
+
+* [Add] Agregó las clases de Wordpress Core
+
 = 1.0.2 =
 Fecha de lanzamiento: 22 de Noviembre de 2024
 
