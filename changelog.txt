@@ -1,3 +1,8 @@
+= 1.0.2.2 =
+Fecha de lanzamiento: 16 de Enero de 2025
+
+* [Improve] Se clono el repositorio a una cuenta de Desarrollo Web
+
 = 1.0.2.1 =
 Fecha de lanzamiento: 15 de Enero de 2025
 
