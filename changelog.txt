@@ -1,7 +1,7 @@
-= 1.0.2.3 =
-Fecha de lanzamiento: 17 de enero de 2025
+= 1.0.3 =
+Fecha de lanzamiento: 20 de enero de 2025
 
-* [Add] Agregó el meta Content-Security-Policy en las cabeceras
+* [Add] Agregó la función para la actualización a través de Github
 
 = 1.0.2.2 =
 Fecha de lanzamiento: 16 de Enero de 2025

@@ -114,5 +114,59 @@
 
 // Reemplazar la salida de la galería nativa con Swiper
 	add_filter('post_gallery', 'replace_gallery_with_swiper', 10, 2);
+	
+//
+	class PlantelesEducativosThemeUpdater {
+		private $theme_slug = 'planteles-educativos';
+		private $update_url = 'https://raw.githubusercontent.com/desarrollowebtamaulipas/planteles-educativos/refs/heads/main/update.json';
+	
+		public function __construct() {
+			add_filter('site_transient_update_themes', [$this, 'check_for_updates']);
+			add_action('upgrader_process_complete', [$this, 'clear_cache'], 10, 2);
+		}
+	
+		public function check_for_updates($transient) {
+			if (empty($transient->checked)) {
+				return $transient;
+			}
+	
+			$remote = $this->get_remote_info();
+			if (!$remote || version_compare($remote['version'], $transient->checked[$this->theme_slug], '<=')) {
+				return $transient;
+			}
+	
+			$transient->response[$this->theme_slug] = [
+				'theme'       => $this->theme_slug,
+				'new_version' => $remote['version'],
+				'url'         => $remote['download_url'],
+				'package'     => $remote['download_url'],
+			];
+	
+			return $transient;
+		}
+	
+		public function clear_cache($upgrader, $options) {
+			if ($options['action'] === 'update' && $options['type'] === 'theme') {
+				delete_transient($this->theme_slug . '_update_info');
+			}
+		}
+	
+		private function get_remote_info() {
+			$remote = get_transient($this->theme_slug . '_update_info');
+			if ($remote === false) {
+				$response = wp_remote_get($this->update_url, ['timeout' => 10]);
+				if (is_wp_error($response) || wp_remote_retrieve_response_code($response) !== 200) {
+					return false;
+				}
+	
+				$remote = json_decode(wp_remote_retrieve_body($response), true);
+				set_transient($this->theme_slug . '_update_info', $remote, 12 * HOUR_IN_SECONDS);
+			}
+	
+			return $remote;
+		}
+	}
+	
+	new PlantelesEducativosThemeUpdater();
 
 ?>
