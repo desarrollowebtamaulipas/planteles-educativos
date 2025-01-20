@@ -115,7 +115,7 @@
 // Reemplazar la salida de la galería nativa con Swiper
 	add_filter('post_gallery', 'replace_gallery_with_swiper', 10, 2);
 	
-//
+// Actualización por Github
 	class PlantelesEducativosThemeUpdater {
 		private $theme_slug = 'planteles-educativos';
 		private $update_url = 'https://raw.githubusercontent.com/desarrollowebtamaulipas/planteles-educativos/refs/heads/main/update.json';
