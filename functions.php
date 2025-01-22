@@ -117,7 +117,7 @@
 	
 // Actualización por Github
 	class PlantelesEducativosThemeUpdater {
-		private $theme_slug = 'planteles-educativos';
+		private $theme_slug = 'planteles-educativos-main';
 		private $update_url = 'https://raw.githubusercontent.com/desarrollowebtamaulipas/planteles-educativos/refs/heads/main/update.json';
 	
 		public function __construct() {

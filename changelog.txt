@@ -1,4 +1,4 @@
-= 1.0.3.1 =
+= 1.0.3.2 =
 Fecha de lanzamiento: 20 de enero de 2025
 
 * [Add] Agregó la función para la actualización a través de Github
