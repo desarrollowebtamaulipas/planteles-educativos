@@ -1275,6 +1275,14 @@ article.article-content .swiper-gallery {
   margin-top: 30px;
 }
 
+.error404{
+  width: 400px;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 40px auto 0 auto;
+}
+
 /** Wordpress Core **/
 .alignnone{
   margin: 5px 20px 20px 0;

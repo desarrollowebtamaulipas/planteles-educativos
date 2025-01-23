@@ -66,7 +66,7 @@
 					<?php if (!$facebook) {} else { ?><li><a href="<?php echo $facebook; ?>" target="_blank"><i class="fa-brands fa-square-facebook"></i> Facebook</a></li><?php } ?>
 					<?php if (!$x) {} else { ?><li><a href="<?php echo $x; ?>" target="_blank"><i class="fa-brands fa-x-twitter"></i> X</a></li><?php } ?>
 					<?php if (!$youtube) {} else { ?><li><a href="<?php echo $youtube; ?>" target="_blank"><i class="fa-brands fa-youtube"></i> Youtube</a></li><?php } ?>
-					<?php if (!$instagram) {} else { ?><li><a href="<?php echo $instagram; ?>" target="_blank"><i class="fa-brands fa-instagram"> Instagram</i></a></li><?php } ?>
+					<?php if (!$instagram) {} else { ?><li><a href="<?php echo $instagram; ?>" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li><?php } ?>
 					<?php if (!$linkedin) {} else { ?><li><a href="<?php echo $linkedin; ?>" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li><?php } ?>
 					<?php if (!$tiktok) {} else { ?><li><a href="<?php echo $tiktok; ?>" target="_blank"><i class="fa-brands fa-tiktok"></i> Tiktok</a></li><?php } ?>
 				
