@@ -1,3 +1,9 @@
+= 1.0.4 =
+Fecha de lanzamiento: 23 de enero de 2025
+
+* [Add] Página de error 404
+* [Fix] Detalle en pie de pagina con link de Instagram 
+
 = 1.0.3.2 =
 Fecha de lanzamiento: 20 de enero de 2025
 
