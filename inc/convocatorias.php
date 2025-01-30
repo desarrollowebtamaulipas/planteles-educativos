@@ -38,13 +38,20 @@
 					?>
 					
 					<?php 
-						if (!$pdf) { } else { echo do_shortcode( '[pdf url='. $pdf .']' ); }
+						
+						if (!$pdf) { } else { 
+							echo do_shortcode( '[pdf url='. $pdf .']' );
+							echo '<div class="d-flex justify-content-center mb-3">';
+							echo '<a class="btn btn-primary btn-small me-2" target="_blank" href="'. $pdf .'">Descargar convocatoria <i class="fas fa-file-pdf"></i></a>';
+							echo '</div>';
+						}
+						
 						if (!$externa) { } else { 
 							echo '<div class="d-flex justify-content-center">';
-							echo '<a class="btn btn-primary btn-small me-2" target="_blank" href="'. $pdf .'">Descargar convocatoria <i class="fas fa-file-pdf"></i></a>';
 							echo '<a class="btn btn-primary btn-small" target="_blank" href="'. $externa .'">Más información <i class="fas fa-arrow-up-right-from-square"></i></a>';
 							echo '</div>';
 						}
+						
 						if (!$info) { } else { echo $info; }
 					?>
 				

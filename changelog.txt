@@ -1,3 +1,8 @@
+= 1.0.5 =
+Fecha: 29 de enero de 2025
+
+* [Fix] Botón de descargar PDF estaba con la condicionante de Más Información y no desplegaba con el Visor.
+
 = 1.0.4 =
 Fecha de lanzamiento: 23 de enero de 2025
 
