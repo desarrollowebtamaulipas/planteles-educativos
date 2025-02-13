@@ -1,3 +1,8 @@
+= 1.0.6 =
+Fecha: 13 de Febrero de 2025
+
+* [Add] Capacidad al Editor de manipular los menús
+
 = 1.0.5.1 =
 Fecha: 6 de Febrero de 2025
 

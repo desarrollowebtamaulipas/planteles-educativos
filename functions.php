@@ -12,6 +12,16 @@
 // Agregar Tamaños de Imagenes
 	add_image_size('prensa', 850, 500, true);
 	
+// Agregarle la capacidad al Editor de manejar los menús
+	function agregar_capacidad_editor_menus() {
+		$role = get_role('editor');
+		if ($role && !$role->has_cap('edit_theme_options')) {
+			$role->add_cap('edit_theme_options');
+		}
+	}
+	add_action('init', 'agregar_capacidad_editor_menus');
+
+	
 // Darle formato de cientos a los datos duros
 	add_filter('acf/format_value/name=datos_1_dato', 'fix_number', 20, 3);
 	add_filter('acf/format_value/name=datos_2_dato', 'fix_number', 20, 3);
