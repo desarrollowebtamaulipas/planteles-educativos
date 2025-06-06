@@ -273,4 +273,12 @@ jQuery(document).ready(function($) {
 		}
 	}
 	
+	// Agregar forzosamente el target blank a destinos pdf
+	$('a[href$=".pdf"], a[href*=".pdf?"]').each(function() {
+		if (!$(this).attr('target')) {
+			$(this).attr('target', '_blank');
+			$(this).attr('rel', 'noopener noreferrer');
+		}
+	});
+
 });
