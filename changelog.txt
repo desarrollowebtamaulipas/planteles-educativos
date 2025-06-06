@@ -1,4 +1,4 @@
-= 1.0.7 =
+= 1.0.7.1 =
 Fecha: 6 de Junio de 2025
 
 * [Add] Función para agregar automáticamente el Target _blank a los enlaces con destino PDF
