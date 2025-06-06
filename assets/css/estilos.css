@@ -593,9 +593,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .row-titulo .titulo-row{
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: 700;
-  line-height: 34px;
+  line-height: 1.5em;
   margin: 0;
 }
 
@@ -1019,13 +1019,39 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 26px;
 }
 
-article.article-content .entry h1:not(.accordion-header),
+article.article-content .entry h1,
 article.article-content .entry h2:not(.accordion-header),
-article.article-content .entry h3:not(.accordion-header),
-article.article-content .entry h4:not(.accordion-header),
-article.article-content .entry h5:not(.accordion-header),
-article.article-content .entry h6:not(.accordion-header){
+article.article-content .entry h3,
+article.article-content .entry h4,
+article.article-content .entry h5,
+article.article-content .entry h6{
   margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+}
+
+article.article-content .entry h1{
+  font-size: 1.75rem;  
+}
+
+article.article-content .entry h2:not(.accordion-header){
+  font-size: 1.5rem;
+}
+
+article.article-content .entry h3{
+  font-size: 1.25rem;
+}
+
+article.article-content .entry h4{
+  font-size: 1rem;
+}
+
+article.article-content .entry h5{
+  font-size: .75rem;
+}
+
+article.article-content .entry h6{
+  font-size: .5rem;
 }
 
 article.article-content .entry blockquote {
@@ -1163,7 +1189,7 @@ article.article-content .swiper-gallery {
 }
 
 .aside-sidebar .row-titulo .titulo-row {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 

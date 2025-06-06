@@ -16,7 +16,7 @@
 				</ul>
 				
 				<div class="row-titulo">
-					<h2 class="titulo-row"><?php the_title(); ?></h2>
+					<h1 class="titulo-row"><?php the_title(); ?></h1>
 					<div class="borde-hr"><hr></div>
 				</div>
 				

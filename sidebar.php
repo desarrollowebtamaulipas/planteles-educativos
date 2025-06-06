@@ -6,7 +6,7 @@
 	<div class="widget js-sticky-widget">
 		
 		<div class="row-titulo">
-			<h2 class="titulo-row">Temas de interés</h2>
+			<h3 class="titulo-row">Temas de interés</h3>
 			<div class="borde-hr"><hr></div>
 		</div>
 	
@@ -195,7 +195,7 @@
 		?>
 		
 		<div class="row-titulo">
-			<h2 class="titulo-row">Boletines de Prensa</h2>
+			<h3 class="titulo-row">Boletines de Prensa</h3>
 			<div class="borde-hr"><hr></div>
 		</div>
 		

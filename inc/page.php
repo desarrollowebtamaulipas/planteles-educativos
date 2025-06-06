@@ -10,7 +10,7 @@
 				<?php the_post_thumbnail( 'prensa', array( 'alt' => get_the_title(), 'class' => 'img-fluid principal' ) ); ?>
 				
 				<div class="row-titulo">
-					<h2 class="titulo-row"><?php the_title(); ?></h2>
+					<h1 class="titulo-row"><?php the_title(); ?></h1>
 					<div class="borde-hr"><hr></div>
 				</div>
 				
