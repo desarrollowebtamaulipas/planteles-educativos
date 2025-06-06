@@ -1,7 +1,8 @@
 = 1.0.7 =
 Fecha: 6 de Junio de 2025
 
-* [Add] Función para agregar automáticamente el Target _blank a los enlaces con destino PDF 
+* [Add] Función para agregar automáticamente el Target _blank a los enlaces con destino PDF
+* [Improve] Se agregaron margenes superiores a las etiquetas <h>
 
 = 1.0.6 =
 Fecha: 13 de Febrero de 2025

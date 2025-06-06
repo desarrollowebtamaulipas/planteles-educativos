@@ -29,7 +29,7 @@ body{
   overflow-x: hidden;
 }
 
-h1, h2,  h3,  h4,  h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font);
 }
 
@@ -1017,6 +1017,15 @@ h1, h2,  h3,  h4,  h5, h6 {
   font-style: normal;
   font-weight: 300;
   line-height: 26px;
+}
+
+article.article-content .entry h1,
+article.article-content .entry h2,
+article.article-content .entry h3,
+article.article-content .entry h4,
+article.article-content .entry h5,
+article.article-content .entry h6{
+  margin-top: 2.5rem;
 }
 
 article.article-content .entry blockquote {
