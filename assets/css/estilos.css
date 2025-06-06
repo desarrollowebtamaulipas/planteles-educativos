@@ -1019,12 +1019,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 26px;
 }
 
-article.article-content .entry h1,
-article.article-content .entry h2,
-article.article-content .entry h3,
-article.article-content .entry h4,
-article.article-content .entry h5,
-article.article-content .entry h6{
+article.article-content .entry h1:not(.accordion-header),
+article.article-content .entry h2:not(.accordion-header),
+article.article-content .entry h3:not(.accordion-header),
+article.article-content .entry h4:not(.accordion-header),
+article.article-content .entry h5:not(.accordion-header),
+article.article-content .entry h6:not(.accordion-header){
   margin-top: 2.5rem;
 }
 
