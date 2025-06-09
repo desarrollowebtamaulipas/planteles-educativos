@@ -280,5 +280,23 @@ jQuery(document).ready(function($) {
 			$(this).attr('rel', 'noopener noreferrer');
 		}
 	});
+	
+	// Agrega forzosamente el target blank a destinos distintos al dominio actual
+	const dominioActual = window.location.hostname;
+	$('a[href^="http"]').each(function() {
+		const enlace = $(this);
+		const href = enlace.attr('href');
+		const dominioEnlace = new URL(href).hostname;
 
+		if (dominioEnlace !== dominioActual) {
+			const target = enlace.attr('target');
+
+			// Si no tiene target o no es "_blank"
+			if (!target || target.toLowerCase() !== '_blank') {
+				enlace.attr('target', '_blank');
+				enlace.attr('rel', 'noopener noreferrer');
+			}
+		}
+	});
+	
 });
