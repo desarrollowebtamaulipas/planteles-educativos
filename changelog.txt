@@ -3,7 +3,7 @@ Fecha: 6 de Junio de 2025
 
 * [Add] Función para agregar automáticamente el Target _blank a los enlaces con destino PDF
 * [Improve] Se agregaron margenes superiores a las etiquetas <h>
-* [Improve] Se arreglaron los encabezados en page y post
+* [Improve] Se arreglaron los encabezados en page y post.
 
 = 1.0.6 =
 Fecha: 13 de Febrero de 2025

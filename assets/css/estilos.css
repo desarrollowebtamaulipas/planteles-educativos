@@ -1019,6 +1019,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 26px;
 }
 
+article.article-content .entry blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    border-left: 5px solid #eee;
+}
+
 article.article-content .entry h1,
 article.article-content .entry h2:not(.accordion-header),
 article.article-content .entry h3,
@@ -1052,12 +1058,6 @@ article.article-content .entry h5{
 
 article.article-content .entry h6{
   font-size: .5rem;
-}
-
-article.article-content .entry blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    border-left: 5px solid #eee;
 }
 
 article.article-content .entry strong,
