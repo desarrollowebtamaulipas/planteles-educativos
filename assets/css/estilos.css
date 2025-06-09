@@ -1080,6 +1080,7 @@ article.article-content .entry a:not(.btn,.alert-link){
 article.article-content .entry img{
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 article.article-content .entry table.table{
