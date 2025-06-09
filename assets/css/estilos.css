@@ -593,10 +593,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .row-titulo .titulo-row{
-  font-size: 2rem;
   font-weight: 700;
   line-height: 1.5em;
   margin: 0;
+}
+
+.row-titulo h2.titulo-row{
+  font-size: 1.5rem;
 }
 
 .row-titulo .borde-hr{
@@ -1017,6 +1020,10 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 300;
   line-height: 26px;
+}
+
+article .row-titulo h1.titulo-row{
+  font-size: 2rem;
 }
 
 article.article-content .entry blockquote {
