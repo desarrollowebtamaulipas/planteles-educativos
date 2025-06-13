@@ -1,11 +1,12 @@
-= 1.0.7.5 =
+= 1.0.7.6 =
 Fecha: 6 de Junio de 2025
 
 * [Add] Función para agregar automáticamente el Target _blank a los enlaces con destino PDF o de otro dominio
 * [Improve] Se agregaron margenes superiores a las etiquetas <h>
 * [Improve] Se arreglaron los encabezados en page y post.
-* [Impruve] Se arreglaron los encabezados de las secciones en el home.
+* [Improve] Se arreglaron los encabezados de las secciones en el home.
 * [Improve] Se agrego border-radius de 5px a las imagenes dentro del content
+* [Improve] Se modifico el orden de los sitios de interés, presenta primero el mas viejo.
 
 = 1.0.6 =
 Fecha: 13 de Febrero de 2025

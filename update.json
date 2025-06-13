@@ -1,7 +1,7 @@
 {
   "name": "Planteles Educativos",
   "slug": "planteles-educativos-main",
-  "version": "1.0.7.5",
+  "version": "1.0.7.6",
   "download_url": "https://github.com/desarrollowebtamaulipas/planteles-educativos/archive/refs/heads/main.zip",
   "tested": "6.7.2",
   "requires": "5.9"

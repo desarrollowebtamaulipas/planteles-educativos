@@ -4,6 +4,7 @@
 							
 		'post_type' 		=> 'sitio-interes',
 		'posts_per_page'	=> -1,
+		'order'   			=> 'ASC',
 		'meta_query' 		=> array('key' => '_thumbnail_id')
 	);
 	
