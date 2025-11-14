@@ -1,7 +1,5 @@
 <!-- Sidebar -->
-<aside class="col-lg-4 aside-sidebar js-sticky-widget">
-	
-	<div class="widget"></div>
+<aside class="col-lg-4 aside-sidebar">
 	
 	<div class="widget js-sticky-widget">
 		
@@ -223,8 +221,6 @@
 		<?php } else { } wp_reset_postdata(); ?>
 	
 	</div>
-	
-<!-- 	<div class="widget"></div>  -->
 	
 </aside>
 <!-- /Sidebar -->

@@ -264,13 +264,18 @@ jQuery(document).ready(function($) {
 		time: 2000
 	});
 	
+	// Si hay un DataTable en la página, NO inicializamos Sticksy
+	if ($('table[id^="datatable-"]').length) {
+		return;
+	}
+	
 	// Sticky Aside
 	if ($('.widget.js-sticky-widget').length) {
-		var stickyEl = new Sticksy('.widget.js-sticky-widget', {topSpacing: 120})
+		var stickyEl = new Sticksy('.widget.js-sticky-widget', { topSpacing: 120 });
 		stickyEl.onStateChanged = function (state) {
-			if(state === 'fixed') stickyEl.nodeRef.classList.add('widget--sticky')
-			else stickyEl.nodeRef.classList.remove('widget--sticky')
-		}
+			if (state === 'fixed') stickyEl.nodeRef.classList.add('widget--sticky');
+			else stickyEl.nodeRef.classList.remove('widget--sticky');
+		};
 	}
 	
 	// Agregar forzosamente el target blank a destinos pdf

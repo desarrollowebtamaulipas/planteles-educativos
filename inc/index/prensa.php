@@ -1,7 +1,6 @@
 <?php
-			
+	
 	$argsprensa = array(
-							
 		'post_type' 		=> 'post',
 		'posts_per_page'	=> 4,
 		'meta_query' 		=> array('key' => '_thumbnail_id')
