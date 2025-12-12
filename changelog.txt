@@ -1,3 +1,9 @@
+= 1.1.1 =
+Fecha: 18 de Noviembre de 2025
+
+* [Add] Template: Listado sub-páginas
+* [Add] Template: Sin sidebar
+
 = 1.1 =
 Fecha: 14 de Noviembre de 2025
 
