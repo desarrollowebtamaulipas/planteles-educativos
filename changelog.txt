@@ -1,3 +1,8 @@
+= 1.1.2 =
+Fecha: 12 de diciembre de 2025
+
+* [Fix] Se arreglo la fecha en los loops cuando se duplican
+
 = 1.1.1 =
 Fecha: 18 de Noviembre de 2025
 

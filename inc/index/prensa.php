@@ -35,7 +35,7 @@
 				<div class="item-boletin">
 					
 					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'prensa', array( 'alt' => get_the_title(), 'class' => 'img-fluid' ) ); ?></a>
-					<h6><?php the_date(); ?></h6>
+					<h6><?php echo get_the_date(); ?></h6>
 					<h4><?php the_title(); ?></h4>
 					<a href="<?php the_permalink(); ?>" class="d-block fw-semibold color-primario hover-primario-o">Continuar leyendo...</a>
 				

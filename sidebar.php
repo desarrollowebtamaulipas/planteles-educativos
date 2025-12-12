@@ -207,7 +207,7 @@
 				<div class="card">
 					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'thumbnail', array( 'alt' => get_the_title(), 'class' => 'img-boletin' ) ); ?></a>
 					<div class="card-body p-0">
-						<h5 class="card-date"><?php the_date(); ?></h5>
+						<h5 class="card-date"><?php echo get_the_date(); ?></h5>
 						<a href="<?php the_permalink(); ?>"><h4 class="card-title"><?php the_title(); ?></h4></a>
 					</div>
 				</div>
