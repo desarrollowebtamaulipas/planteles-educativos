@@ -304,4 +304,38 @@ jQuery(document).ready(function($) {
 		}
 	});
 	
+	// Agrega data-fancybox a links de imagenes
+	const imgExt = /\.(jpg|jpeg|png|gif|webp|avif|bmp|svg)(?:\?.*)?$/i;
+	
+	$('a[href]').each(function () {
+		const $a = $(this);
+		const href = ($a.attr('href') || '').trim();
+		
+		// ignora anchors internos, mailto, tel, javascript, etc.
+		if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('javascript:')) {
+			return;
+		}
+		
+		// ¿apunta a imagen?
+		if (imgExt.test(href)) {
+		
+			// no sobreescribas si ya tiene fancybox
+			if (!$a.is('[data-fancybox]')) {
+				$a.attr('data-fancybox', '');
+			}
+			
+			// opcional: caption automático desde title o texto
+			if (!$a.is('[data-caption]')) {
+				const caption = $a.attr('title') || $a.text().trim();
+				if (caption) $a.attr('data-caption', caption);
+			}
+			
+			// quita target _blank (recomendado)
+			if ($a.attr('target') === '_blank') {
+				$a.removeAttr('target');
+				$a.removeAttr('rel');
+			}
+		}
+	});
+	
 });

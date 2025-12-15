@@ -1,3 +1,8 @@
+= 1.1.3 =
+Fecha: 15 de diciembre de 2025
+
+* [Add] Agrega automáticamente la funcionalidad de Fancybox a link con imágenes
+
 = 1.1.2 =
 Fecha: 12 de diciembre de 2025
 
