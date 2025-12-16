@@ -1116,7 +1116,7 @@ article.article-content .swiper-gallery {
   margin: 0;
 }
 
-/* Bootstrap */
+/* Accordions */
 .accordion-button{
   line-height: 1.4rem;
 }
@@ -1130,6 +1130,27 @@ article.article-content .swiper-gallery {
 .accordion-button:focus{
   box-shadow: none;
 }
+
+/* Tabs */
+.entry .tabs .nav-link{
+  color: var(--primario);
+}
+
+.entry .tabs .nav-link.active{
+  color: #FFF;
+  background-color: var(--primario);
+  border-color: var(--primario);
+}
+
+.entry .tabs .nav-link:hover{
+  border-color: var(--primario-a);
+  border-bottom-color: var(--primario);
+}
+
+.entry .tabs .nav-tabs{
+  border-color: var(--primario);
+}
+
 
 /* Breadcrumbs */ 
 #breadcrumbs{
