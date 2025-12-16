@@ -1136,6 +1136,10 @@ article.article-content .swiper-gallery {
   color: var(--primario);
 }
 
+.entry .tabs .nav-link br{
+  display: none;
+}
+
 .entry .tabs .nav-link.active{
   color: #FFF;
   background-color: var(--primario);
