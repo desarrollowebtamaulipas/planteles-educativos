@@ -2,6 +2,11 @@
 
 // Deshabilitar XML-RPC
 	add_filter('xmlrpc_enabled', '__return_false');
+	
+// Desactiva CORS
+	add_action('init', function () {
+		remove_filter('rest_pre_serve_request', 'rest_send_cors_headers');
+	});
 
 // Agregar los Menus Personalizados de WordPress 3.0
 	add_theme_support('menus');
