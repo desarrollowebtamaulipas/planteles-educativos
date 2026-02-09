@@ -1,0 +1,191 @@
+{
+    "key": "group_65dd10615bbd0",
+    "title": "Destino",
+    "fields": [
+        {
+            "key": "field_65df6bd5fca47",
+            "label": "Tipo de Destino",
+            "name": "destino_tipo",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "nolink": "Sin enlace",
+                "interno": "Interno",
+                "externo": "Externo",
+                "pdf": "Archivo PDF",
+                "fancybox": "Imagen en Lightbox"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "create_options": 0,
+            "save_options": 0
+        },
+        {
+            "key": "field_65df6ccffca48",
+            "label": "Página Interior",
+            "name": "destino_interior",
+            "aria-label": "",
+            "type": "page_link",
+            "instructions": "Busca la pagina que deseas ligar",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_65df6bd5fca47",
+                        "operator": "==",
+                        "value": "interno"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "post_status": [
+                "publish",
+                "future"
+            ],
+            "taxonomy": "",
+            "allow_archives": 0,
+            "multiple": 0,
+            "allow_null": 0
+        },
+        {
+            "key": "field_65dd10612f607",
+            "label": "Link de Destino",
+            "name": "destino_link",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_65df6bd5fca47",
+                        "operator": "==",
+                        "value": "externo"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_65df6d34fca49",
+            "label": "Archivo PDF",
+            "name": "destino_pdf",
+            "aria-label": "",
+            "type": "file",
+            "instructions": "Carga o selecciona el Archivo PDF",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_65df6bd5fca47",
+                        "operator": "==",
+                        "value": "pdf"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": "pdf"
+        },
+        {
+            "key": "field_65df6df8fca4a",
+            "label": "Imagen para mostrar en Lightbox",
+            "name": "destino_imagen",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Carga o selecciona la imagen que quieres mostrar en Lightbox",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_65df6bd5fca47",
+                        "operator": "==",
+                        "value": "fancybox"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg, png, jpeg",
+            "preview_size": "medium"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "imagen-portada"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "sitio-interes"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "aviso"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "modified": 1770663220
+}

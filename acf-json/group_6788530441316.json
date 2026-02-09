@@ -1,0 +1,44 @@
+{
+    "key": "group_6788530441316",
+    "title": "Documentación Shorcodes",
+    "fields": [
+        {
+            "key": "field_67885284a6da5",
+            "label": "Documentación",
+            "name": "",
+            "aria-label": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "En el siguiente enlace encontrará la documentación sobre el uso correcto de los Shortcodes en su sitio\r\n\r\n<hr style=\"margin: 20px 0; border: 0;\">\r\n\r\n<h3><a href=\"https:\/\/link.tamaulipas.gob.mx\/docsc\" target=\"_blank\" style=\"padding: 15px 30px; margin-top: 20px; color: #FFF; background: #9E112B; text-decoration: none; border-radius: 50px;\">Ver Documentación<\/a><\/h3>",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "documentacion-de-shortcodes"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "modified": 1770663220
+}

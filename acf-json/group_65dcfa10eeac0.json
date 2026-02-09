@@ -1,0 +1,152 @@
+{
+    "key": "group_65dcfa10eeac0",
+    "title": "Identidad de la Escuela",
+    "fields": [
+        {
+            "key": "field_65dcfa1111378",
+            "label": "Nombre de la Insitucion",
+            "name": "identidad_nombre",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_65dcfa6f11379",
+            "label": "Logo de la Institución",
+            "name": "identidad_logo",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "full"
+        },
+        {
+            "key": "field_65fb12748cb6a",
+            "label": "Logo de la Institución Blanco",
+            "name": "identidad_logo_blanco",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "full"
+        },
+        {
+            "key": "field_65dcfa961137a",
+            "label": "Color Primario",
+            "name": "identidad_color_primario",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#ab0033",
+            "enable_opacity": 0,
+            "return_format": "string",
+            "allow_in_bindings": 1
+        },
+        {
+            "key": "field_65dcfab21137b",
+            "label": "Color Secundario",
+            "name": "identidad_color_secundario",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#bc955c",
+            "enable_opacity": 0,
+            "return_format": "string",
+            "allow_in_bindings": 1
+        },
+        {
+            "key": "field_65dcfaf11137c",
+            "label": "Color Primario Oscuro",
+            "name": "identidad_color_primario_oscuro",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#8e0026",
+            "enable_opacity": 0,
+            "return_format": "string",
+            "allow_in_bindings": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "identidad_del_sitio"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1770663324
+}

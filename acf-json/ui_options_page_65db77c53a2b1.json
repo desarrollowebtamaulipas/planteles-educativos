@@ -1,0 +1,23 @@
+{
+    "key": "ui_options_page_65db77c53a2b1",
+    "title": "Configuraciones",
+    "active": true,
+    "menu_order": 0,
+    "page_title": "Configuraciones",
+    "menu_slug": "configuraciones",
+    "parent_slug": "none",
+    "advanced_configuration": 1,
+    "icon_url": "dashicons-admin-settings",
+    "menu_title": "Configuraciones",
+    "position": 4,
+    "redirect": 0,
+    "description": "",
+    "menu_icon": [],
+    "update_button": "Actualizar",
+    "updated_message": "Las opciones se actualizaron correctamente",
+    "capability": "edit_posts",
+    "data_storage": "options",
+    "post_id": "",
+    "autoload": 0,
+    "modified": 1770663220
+}

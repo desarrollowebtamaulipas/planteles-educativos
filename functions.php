@@ -2,11 +2,6 @@
 
 // Deshabilitar XML-RPC
 	add_filter('xmlrpc_enabled', '__return_false');
-	
-// Desactiva CORS
-	add_action('init', function () {
-		remove_filter('rest_pre_serve_request', 'rest_send_cors_headers');
-	});
 
 // Agregar los Menus Personalizados de WordPress 3.0
 	add_theme_support('menus');
@@ -129,6 +124,35 @@
 
 // Reemplazar la salida de la galería nativa con Swiper
 	add_filter('post_gallery', 'replace_gallery_with_swiper', 10, 2);
+	
+// Desactiva CORS
+	add_filter('allowed_http_origins', function($origins) {
+		$origin = $_SERVER['HTTP_ORIGIN'] ?? '';
+		$home = parse_url(home_url(), PHP_URL_HOST);
+		
+		if (strpos($origin, $home) !== false) {
+			return array($origin);
+		}
+		
+		return array();
+	}, 10);
+	
+	add_action('rest_api_init', function() {
+		remove_filter('rest_pre_serve_request', 'rest_send_cors_headers');
+		
+		add_filter('rest_pre_serve_request', function($value) {
+			$origin = $_SERVER['HTTP_ORIGIN'] ?? '';
+			$home_host = parse_url(home_url(), PHP_URL_HOST);
+	
+			if ($origin && strpos($origin, $home_host) !== false) {
+				header("Access-Control-Allow-Origin: $origin");
+				header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+				header("Access-Control-Allow-Credentials: true");
+				header("Vary: Origin");
+			}
+			return $value;
+		}, 0);
+	}, 10);
 	
 // Actualización por Github
 	class PlantelesEducativosThemeUpdater {

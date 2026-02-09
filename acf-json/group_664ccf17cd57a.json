@@ -1,0 +1,46 @@
+{
+    "key": "group_664ccf17cd57a",
+    "title": "Copyright",
+    "fields": [
+        {
+            "key": "field_664ccf03b80db",
+            "label": "Links",
+            "name": "copyright_links",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Agregar links de Avisos de Privacidad, Terminos y Condiciones y algún otro link que corresponda",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "identidad_del_sitio"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "modified": 1770663220
+}
