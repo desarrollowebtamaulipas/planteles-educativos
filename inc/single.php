@@ -27,6 +27,15 @@
 				<div class="entry">
 				
 					<?php the_content(); ?>
+					
+					<?php 
+						$image_ids = get_field('extras_galeria');
+						if( $image_ids ) {
+							$images_string = implode( ',', $image_ids );
+							$shortcode = sprintf( '[' . 'gallery ids="%s"]', esc_attr($images_string) );
+							echo do_shortcode( $shortcode );
+						}
+					?>
 				
 				</div>
 				
