@@ -71,7 +71,7 @@
                     "aria-label": "",
                     "type": "post_object",
                     "instructions": "Seleccionar máximo 3-5 páginas",
-                    "required": 1,
+                    "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -88,6 +88,7 @@
                     "return_format": "object",
                     "multiple": 1,
                     "allow_null": 0,
+                    "allow_in_bindings": 1,
                     "bidirectional": 0,
                     "ui": 1,
                     "bidirectional_target": []
@@ -181,7 +182,7 @@
                     "aria-label": "",
                     "type": "post_object",
                     "instructions": "Seleccionar máximo 3-5 páginas",
-                    "required": 1,
+                    "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -198,6 +199,7 @@
                     "return_format": "object",
                     "multiple": 1,
                     "allow_null": 0,
+                    "allow_in_bindings": 1,
                     "bidirectional": 0,
                     "ui": 1,
                     "bidirectional_target": []
@@ -291,7 +293,7 @@
                     "aria-label": "",
                     "type": "post_object",
                     "instructions": "Seleccionar máximo 3-5 páginas",
-                    "required": 1,
+                    "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -308,6 +310,7 @@
                     "return_format": "object",
                     "multiple": 1,
                     "allow_null": 0,
+                    "allow_in_bindings": 1,
                     "bidirectional": 0,
                     "ui": 1,
                     "bidirectional_target": []
@@ -401,7 +404,7 @@
                     "aria-label": "",
                     "type": "post_object",
                     "instructions": "Seleccionar máximo 3-5 páginas",
-                    "required": 1,
+                    "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -418,6 +421,7 @@
                     "return_format": "object",
                     "multiple": 1,
                     "allow_null": 0,
+                    "allow_in_bindings": 1,
                     "bidirectional": 0,
                     "ui": 1,
                     "bidirectional_target": []
@@ -461,5 +465,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1773261093
+    "modified": 1773335659
 }

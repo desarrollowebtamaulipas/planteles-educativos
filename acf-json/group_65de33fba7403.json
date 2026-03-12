@@ -72,7 +72,8 @@
             },
             "default_value": "",
             "min": 0,
-            "max": 9999,
+            "max": 999999,
+            "allow_in_bindings": 1,
             "placeholder": "",
             "step": "",
             "prepend": "",
@@ -155,7 +156,8 @@
             },
             "default_value": "",
             "min": 0,
-            "max": 9981,
+            "max": 999999,
+            "allow_in_bindings": 1,
             "placeholder": "",
             "step": "",
             "prepend": "",
@@ -238,7 +240,8 @@
             },
             "default_value": "",
             "min": -5,
-            "max": 9999,
+            "max": 999999,
+            "allow_in_bindings": 1,
             "placeholder": "",
             "step": "",
             "prepend": "",
@@ -318,6 +321,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "display_title": "",
-    "modified": 1770663220
+    "modified": 1773335747
 }
