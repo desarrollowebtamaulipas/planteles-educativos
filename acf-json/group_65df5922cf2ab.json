@@ -3,6 +3,24 @@
     "title": "Tamaño de las Imagenes",
     "fields": [
         {
+            "key": "field_69b33be7515e7",
+            "label": "WebP",
+            "name": "",
+            "aria-label": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "<p style=\"font-size:16px; padding: 1rem; color: #664d03; background-color: #fff3cd; border-radius: 10px; border: 2px solid #ffecb5;\"><strong>TIP:<\/strong> Convertir las imágenes a formato WebP reduce significativamente el peso sin perder la calidad, este sitio soporta el uso de archivos WebP, puede usar esta <a href=\"https:\/\/pixlr.com\/converter\/png-to-webp\/\" target=\"_blank\" style=\"color: #664d03; font-weight: bold;\">herramienta gratuita<\/a> para convertir sus imágenes antes de subir al portal.<\/p>",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
             "key": "field_65df9934a5cfd",
             "label": "Imágenes de Portada",
             "name": "",
@@ -129,6 +147,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "display_title": "",
-    "modified": 1770663220
+    "modified": 1773355166
 }
