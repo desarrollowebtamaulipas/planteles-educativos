@@ -1,9 +1,11 @@
-= 1.1.6.2 =
+= 1.1.6.3 =
 Fecha: 11 de marzo de 2026
 
 * [Add] Campo personalizado para Galerías en entradas.
 * [Improve] Campo de Dato duro aumento a 6 dígitos.
 * [Improve] Campo de lista de paginas en Temas de Interés ya no es obligatorio.
+* [Fix] Border-radius a sitios de interes
+* [Add] Se agregó WebP como archivo valido en Destino Fancybox
 
 = 1.1.5 =
 Fecha: 9 de febrero de 2026

@@ -917,6 +917,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* Sitios de interés */
+#sitios-de-interes{
+  
+}
+
+.sitios-de-interes img{
+  border-radius: 10px;
+}
+
 /* Footer */
 #footer{
   background: #54565A;
