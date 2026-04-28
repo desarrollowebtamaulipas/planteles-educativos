@@ -278,6 +278,21 @@ jQuery(document).ready(function($) {
 		};
 	}
 	
+	// Recalcular Sticksy cuando los colapsables o tabs de Bootstrap cambian de altura
+	document.addEventListener('shown.bs.collapse', function () {
+		Sticksy.hardRefreshAll();
+	});
+	document.addEventListener('hidden.bs.collapse', function () {
+		Sticksy.hardRefreshAll();
+	});
+	document.addEventListener('shown.bs.tab', function () {
+		Sticksy.hardRefreshAll();
+	});
+	document.addEventListener('hidden.bs.tab', function () {
+		Sticksy.hardRefreshAll();
+	});
+	
+	
 	// Agregar forzosamente el target blank a destinos pdf
 	$('a[href$=".pdf"], a[href*=".pdf?"]').each(function() {
 		if (!$(this).attr('target')) {
